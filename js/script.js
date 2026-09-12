@@ -97,8 +97,8 @@
   const el = document.getElementById("typed");
   const roles = [
     "Développeur Full-Stack",
+    "Développeur Web & Mobile",
     "Lead Développeur",
-    "Champion de hackathons 🏆",
     "Expert en automatisation n8n",
   ];
   let roleIdx = 0, charIdx = 0, deleting = false;
