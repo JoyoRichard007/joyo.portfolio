@@ -297,8 +297,7 @@
   });
 
   gsap.to(".hero-text", {
-    y: 40,
-    opacity: 0.4,
+    y: 60,
     scrollTrigger: {
       trigger: ".hero",
       start: "top top",
