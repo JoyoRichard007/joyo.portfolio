@@ -3,6 +3,19 @@
    Interactions & animations
    ============================================ */
 
+// ---------- Lien du CV (Google Drive) ----------
+// Remplacer "" par le lien direct de téléchargement du CV.
+// Format Google Drive : https://drive.google.com/uc?export=download&id=ID_DU_FICHIER
+const CV_URL = "";
+
+(function () {
+  if (!CV_URL) return;
+  ["cvDownload", "cvDownloadContact"].forEach((id) => {
+    const el = document.getElementById(id);
+    if (el) el.href = CV_URL;
+  });
+})();
+
 // ---------- Curseur personnalisé ----------
 (function () {
   const dot = document.getElementById("cursorDot");
