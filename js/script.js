@@ -6,7 +6,7 @@
 // ---------- Lien du CV (Google Drive) ----------
 // Remplacer "" par le lien direct de téléchargement du CV.
 // Format Google Drive : https://drive.google.com/uc?export=download&id=ID_DU_FICHIER
-const CV_URL = "";
+const CV_URL = "https://drive.google.com/uc?export=download&id=1H6S_LMCscTRveyx_TfbTTN_mlfpjKdEU";
 
 (function () {
   if (!CV_URL) return;
